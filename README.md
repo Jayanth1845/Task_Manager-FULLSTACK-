@@ -178,4 +178,3 @@ This project successfully demonstrates a full stack application with authenticat
 
 ---
 
-⭐ If you like this project, give it a star on GitHub!
