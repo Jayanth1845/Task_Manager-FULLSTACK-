@@ -6,7 +6,7 @@ function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
-  // ✅ UPDATED LOGIN FUNCTION
+  // UPDATED LOGIN FUNCTION
   const handleLogin = async () => {
     if (!email || !password) {
       alert("Enter email and password");
@@ -22,12 +22,12 @@ function Login() {
       console.log("LOGIN RESPONSE:", res.data);
 
       if (res.data.status === "success") {
-        // ✅ Store user
+        // Store user
         localStorage.setItem("user_id", res.data.user_id);
 
         alert("Login Success");
 
-        // 🔥 IMPORTANT FIX (forces UI update)
+        // IMPORTANT FIX (forces UI update)
         window.location.href = "/home";
       } else {
         alert(res.data.message || "Login Failed");
