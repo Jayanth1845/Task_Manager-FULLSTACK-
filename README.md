@@ -167,8 +167,8 @@ npm start
 
 ## 👨‍💻 Author
 
-* Developed by: *Your Name*
-* Course: AIML / Full Stack Project
+* Developed by: *JAYANTH MS*
+* Course: Full Stack Project
 
 ---
 
